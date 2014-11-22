@@ -1,0 +1,206 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/* Background textur */
+body {
+	background-image: url("../images/cream_dust.jpg") 
+}
+
+/* Front image */
+.image-container {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	max-height: 406px;
+	/*box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);*/
+}
+
+.image {
+	margin-top: -255px;
+	background-image: url("../images/start_image.jpg"); 
+	background-size: 100%;
+	height: 1136px; /* Orginal image hight*/
+	width: 100%;
+}
+
+
+
+/* nav background */
+nav {
+	margin-top: -100px;
+    background-color: rgba(0,0,0,.50);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.logo {
+	position: relative;
+	margin-top: 2%;
+	margin-left: 10%;
+	height: 60px;
+	width: 233px;
+}
+
+.navButtons {
+	color: #93a445;
+}
+
+
+h1 {
+	font-family: "lato"; 
+	font-weight: 300;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 35px;
+	color: #93a445;
+
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-family: "lato"; 
+	font-weight: 300;
+	font-size: 25px;
+	color: #885a2d;
+}
+
+h3 {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-family: "lato"; 
+	font-weight: 300;
+	font-size: 25px;
+	color: #885a2d;
+	
+
+}
+
+.content-container {
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	text-align: center;
+}
+
+.paragraph {
+	font-family: "lato"; 
+	font-weight: 300;
+	color: #885a2d;	
+	font-size: 18px;
+	text-align: left;
+}
+
+.navText {
+	margin-right: 10%;
+	margin-top: -4.125%;
+}
+
+a {
+	display: block;
+	padding-right: 3%;
+	float: right;
+	color: #93a445;
+	text-decoration: none;
+	font-family: "lato"; 
+	font-weight: 700;
+	font-size: 20px;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+}
+
+.holdingPin {
+	margin-top: 35px; 
+}
+
+ol {
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: left;
+	font-family: "lato"; 
+	font-weight: 300;
+	color: #885a2d;	
+	font-size: 18px;
+}
+
+.lineLeft {
+	margin-top: 23px;
+	position: absolute;
+	width: 86px;
+	float: left;
+	height: 1px;
+	width: 86px;
+	background-color: #885a2d;
+	margin-left: 132px;
+}
+
+.lineRight {
+	margin-top: -17px;
+	float: right;
+	height: 1px;
+	width: 86px;
+	background-color: #885a2d;
+	margin-right: 132px;
+}
+
+span.and {
+	font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
